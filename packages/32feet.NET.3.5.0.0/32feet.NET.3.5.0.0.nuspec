@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>32feet.NET</id>
+    <version>3.5.0.0</version>
+    <title>32feet.NET</title>
+    <authors>Alan McFarlane, Peter Foot</authors>
+    <owners>Alan McFarlane, Peter Foot</owners>
+    <licenseUrl>http://32feet.codeplex.com/license</licenseUrl>
+    <projectUrl>http://32feet.codeplex.com/releases/view/88941</projectUrl>
+    <iconUrl>http://download.codeplex.com/Download?ProjectName=32feet&amp;DownloadId=172377&amp;Build=18398</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>32feet.NET is a shared-source project to make personal area networking technologies such as Bluetooth, Infrared (IrDA) and more, easily accessible from .NET code. Supports desktop, mobile or embedded systems. 32feet.NET is free for commercial or non-commercial use. If you use the binaries you can just use the library as-is, ...
+Note that this package does NOT include the Broadcom/Widcomm dependencies, download the library from Codeplex if you need Widcomm support.</description>
+    <summary>32feet.NET - Personal Area Networking for .NET</summary>
+    <releaseNotes>This version changes the 32feet.NET library (both desktop and NETCF) to use the .NET Framework version 3.5. Previously we compiled for .NET v2.0.
+
+There are no code changes from our version 3.4.
+
+The most important new features in 3.4 since 3.3 are:
+• Provide callback on SelectBluetoothDeviceDialog to allow filtering of devices
+• BluetoothDeviceInfo.GetVersions method
+• Add Windows 8 enum values -- important for enum BluetoothDeviceInfoProperties as exposed by BluetoothWin32RadioInRangeEventArgs
+• Bluetopia: Basic support for BluetoothListener
+
+The most important fixes since 3.3 are:
+• BluetoothWin32Events doesn't work on x64
+• Support ObexWebRequest.Timeout on all NETCF stack (even MSFT+WM)
+• Using the NETCF version on the desktop gives a unfriendly message: Unable to load DLL 'coredll.dll'
+
+The full list of workitems is at http://32feet.codeplex.com/workitem/list/advanced?release=3.4&amp;size=25&amp;status=all</releaseNotes>
+    <copyright>Copyright © 2003 - 2012</copyright>
+    <language />
+    <tags>Bluetooth OBEX IrDA</tags>
+  </metadata>
+</package>
